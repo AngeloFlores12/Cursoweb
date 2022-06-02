@@ -12,5 +12,12 @@ header{
 nav{
     width:250px;
     height: 6000px;
-    background-color:
+    background-color:#35B736
+}
+main{
+    width:1030px;
+    height: 600px;
+    background-color:#FEE94E;
+    margin-left:250px;
+    margin-top: -600px;
 }

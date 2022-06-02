@@ -52,5 +52,17 @@ img{
     z-index: -1;
 }
 .contenedorimagen{
-    position: ;
+    position: relative;
+    max-width:900px;
+    margin: auto;
+}
+.contenedorimagen img{
+    width:100px;
+    height: auto;
+    opacity:40%;
+}
+.textoderecha{
+    position: absolute;
+    right: 20;
+    top:200px;
 }
