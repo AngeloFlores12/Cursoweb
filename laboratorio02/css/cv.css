@@ -1,0 +1,47 @@
+@font-face{
+    font-family: "Batman";
+    src: url("/fonts/BATMAN.ttf");
+}.fuente1{
+    font-family: "Batman";
+}
+@font-face{
+    font-family: "Transformer";
+    src: url("/fonts/Transformers\ Movie.ttf");
+}
+.fuente2{
+    font-family: "Transformer";
+}
+h1{
+    color: crimson;
+}
+#subtitulo{
+    color: darkblue;
+    font-style: italic;
+}
+.fa-facebook{
+    font-size: 25px;
+    color: #1877f2;
+}
+.fa-youtube{
+    font-size:25px;
+    color: #ff0000;
+}
+.fa.instagram{
+    font-size:25px;
+    color: #be3764;
+}
+.fa-github{
+    font-size:#333;
+}
+.fa-whatsapp{
+    font-size:25px;
+    color: #034e25;
+}
+.fa-linkedin{
+    font-size:25px;
+    color:#0077b5;
+}
+.fa-tiktok{
+    font-size:25px;
+    color: black;
+}
