@@ -4,19 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ejemplo 8</title>
+    <title>Ejemplo 1</title>
     <script type="text/javascript">
 
-    var n1=0, n2=0, n3=0, prom=0;
+        var edad=0, men="";
 
-    n1=parseFloat(prompt("Ingrese la nota 1:"));
-    n2=parseFloat(prompt("Ingrese la nota 2:"));
-    n3=parseFloat(prompt("Ingrese la nota 3:"));
+        edad=parseInt(prompt("Ingresa tu edad"));
 
-    prom=(n1+n2+n3)/3;
+        if(edad>=18){
+            men="Eres mayor de edad";
+        }
 
-    document.write("El promedio es: "+prom);
-
+        alert(men);
     </script>
 </head>
 <body>

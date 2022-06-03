@@ -4,18 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ejemplo 8</title>
+    <title>Ejemplo 2</title>
     <script type="text/javascript">
 
-    var n1=0, n2=0, n3=0, prom=0;
+    var lad=0, area=0, men="";
 
-    n1=parseFloat(prompt("Ingrese la nota 1:"));
-    n2=parseFloat(prompt("Ingrese la nota 2:"));
-    n3=parseFloat(prompt("Ingrese la nota 3:"));
+    lad=parseInt(prompt("Ingresa el lado del cuadro:"));
 
-    prom=(n1+n2+n3)/3;
+    area=lad*lad;
 
-    document.write("El promedio es: "+prom);
+    if(area>100){
+        men="Es un cuadro grande";
+    }
+
+    document.write("El area del cuadro es: "+area+"<br>");
+    document.write(men);
 
     </script>
 </head>
