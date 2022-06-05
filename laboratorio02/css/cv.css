@@ -11,20 +11,9 @@
 .fuente2{
     font-family: "Transformer";
 }
-h1{
-    color: crimson;
-}
-#subtitulo{
-    color: darkblue;
-    font-style: italic;
-}
 .fa-facebook{
     font-size: 25px;
     color: #1877f2;
-}
-.fa-youtube{
-    font-size:25px;
-    color: #ff0000;
 }
 .fa.instagram{
     font-size:25px;
@@ -41,7 +30,23 @@ h1{
     font-size:25px;
     color:#0077b5;
 }
-.fa-tiktok{
-    font-size:25px;
-    color: black;
+#Nombre{
+    border: solid 1px;
+    padding: 25px;
+}
+legend{
+    border: solid 2px;
+    border-radius: 15px;
+    background-color: gray;
+}
+div{
+    width: 50%;
+    margin: auto
+}
+body{
+    background-color: #3989b4;
+}
+div{
+    background-color: white;
+    border: 1px solid black;
 }
